@@ -28,9 +28,10 @@ void setup() {
   line(475, 125, 475, 125);
   strokeWeight(15);
   line(475, 175, 475, 175);
+  strokeWeight(8);
 }
 void draw() {
-  strokeWeight(8);
+  
   if(mouseButton == LEFT){
       if((mouseX)<=50 &&(mouseY)<=50){
         stroke(255, 0, 0);
